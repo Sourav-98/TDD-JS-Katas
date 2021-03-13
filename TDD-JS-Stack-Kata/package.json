@@ -1,0 +1,17 @@
+{
+  "name": "tdd-js-stack-kata",
+  "version": "1.0.0",
+  "description": "A TDD project in JS on the Stack Kata",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jasmine spec/app.spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.6.4"
+  }
+}
