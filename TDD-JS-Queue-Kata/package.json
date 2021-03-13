@@ -1,0 +1,19 @@
+{
+  "name": "tdd-js-queue-kata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "jasmine spec/app.spec.js"
+  },
+  "keywords": [
+    "tdd",
+    "queue",
+    "kata"
+  ],
+  "author": "SRC",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.6.4"
+  }
+}
