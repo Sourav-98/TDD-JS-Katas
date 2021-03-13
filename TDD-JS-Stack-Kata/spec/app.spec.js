@@ -43,7 +43,7 @@ describe('stack content properties', function(){
         let stack = new Stack();
         let element1 = 45, element2 = 56;
         stack.stackData = [element1, element2];
-        expect(stack.getTopOfStack()).toBe(element2);
+        expect(stack.getTopOfStack()).toBe(element1);
     });
 });
 
@@ -79,7 +79,7 @@ describe('push function verification', ()=>{
         let stack = new Stack();
         let element1 = 45, element2 = 56;
         stack.stackPush(element1);
-        stack.stackPush(element2)
+        stack.stackPush(element2);
         expect(stack.getTopOfStack()).toBe(element2);
     });
 });

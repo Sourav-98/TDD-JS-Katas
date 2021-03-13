@@ -20,15 +20,17 @@ class Stack{
             return undefined;
         }
         else{
-            return this.stackData[this.getSize() - 1];
+            return this.stackData[0];
         }
     }
 
     stackPush(element){
-        this.stackData.push(element);
+        this.stackData.splice(0, 0, element);
     }
     stackPop(){
-        return this.stackData.pop();
+        let poppedElement = this.stackData[0];
+        this.stackData.splice(0, 1);
+        return poppedElement;
     }
     
 }
